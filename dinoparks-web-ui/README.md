@@ -1,6 +1,6 @@
-Author: Derick Nyende
+# Author: Derick Nyende
 
-Project name: Dinoparks Take Home Challenge
+# Project name: Dinoparks Take Home Challenge
 
 # Problem Approach
 1. I started by reading through the challenge doc to determine what the goal of the challenge was and the expected result.
@@ -30,7 +30,7 @@ Although I already knew some JavaScript, I learnt a lot more of its functionalit
 
 I think the event objects could have been more consistent and compatible with the task. It was a challenge to go from the object/json data to producing data for the specific cell blocks but that might have been done deliberately for the coding challenge. Otherwise, everything was very clear, well thought out and properly explained.
 
-## Setup and running
+# Setup and running
 
 # Node.js is needed to run the app
 
