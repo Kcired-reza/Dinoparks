@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  border: 6px solid rgba(231, 224, 224, 0.185);
+  border-radius: 12px;
+  background-color: white;
+  padding-bottom: 1%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  max-height: 25%;
+  width: 1500px;
+  height: 500px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-container {
+  background-color: whitesmoke;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px solid whitesmoke;
+  padding-bottom: 10%;
+}
+
+.App-container-headings {
+  display: inline-block;
+  width: 100%;
+}
+
+.App-container-headings-head {
+  display: inline;
+  float: left;
+  font-size: calc(20px + 2vmin);
+  color: black;
+}
+
+.App-container-headings-date {
+  display: inline;
+  float: right;
+  margin-top: 3%;
+  font-size: calc(10px + 2vmin);
+  color: gray;
+}
+
+img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+}
+
+.Wrench {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.Grid-container {
+  background-color: whitesmoke;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(27, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . .";
+}
+
+
+.Grid-item-safe {
+  background-color: #51b687;
+  border: 0.1px solid whitesmoke;
+}
+
+.Grid-item-unsafe {
+  background-color: red;
+  border: 0.1px solid whitesmoke;
+}
+
+.Grid-item-other {
+  background-color: white;
+  border: 0.1px solid whitesmoke;
+}
+
+.Grid-label {
+  color: gray;
+  align-content: center;
+  font-size: 30%;
+}
+
+.Grid-A1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.Grid-A2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
