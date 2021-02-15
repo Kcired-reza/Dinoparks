@@ -10,8 +10,11 @@ In this mode you can make changes to the code and it will immediately reflect on
 
 In this mode the app can be viewed at 'http://localhost:3000'
 
-# Type 'npm insatll -g serve'
+# Type 'npm install -g serve'
 This is needed to deploy the app as a static server
+
+# Type 'npm run build'
+This will build the production version of the web app
 
 # Type 'serve -s build' to deploy static server of the app
 
