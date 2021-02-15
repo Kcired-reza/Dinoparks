@@ -32,7 +32,7 @@ I think the event objects could have been more consistent and compatible with th
 
 # Setup and running
 
-# Node.js is needed to run the app
+Node.js is needed to run the app
 
 # Type 'npm start' to run the app in development mode
 
