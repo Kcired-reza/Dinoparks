@@ -1,7 +1,37 @@
--------------------------------------------------------------------
 Author: Derick Nyende
+
 Project name: Dinoparks Take Home Challenge
--------------------------------------------------------------------
+
+# Problem Approach
+1. I started by reading through the challenge doc to determine what the goal of the challenge was and the expected result.
+
+2. I chose the languages and ide I thought would be best for this project. I used Visual Studio Code as my IDE and JavaScript as my development language, while also making use of node.js and react.js to assist in devloping.
+3. Section breakdown:
+  CSS - to have the styles and layouts of my elements preset; 
+  JSX - creates the HTML that controls the functionality of the web page elements;
+  Data Extraction - a function that would extract the data from the server and store it in a variable for easy access;
+  Grid Elements - these take in the given data and change there appearance in the grid according to the data
+
+# What I would do differently
+
+I would have liked to get the web-app to work exactly as I intended. 
+
+I would have found a better way to create the grid that is faster and less prone to errors.
+
+# What I learnt
+
+I learnt a lot about CSS, HTML and what it takes to develop interactive and dynamic web-apps
+
+I learnt how to use React to fast-track my app development
+
+Although I already knew some JavaScript, I learnt a lot more of its functionalities and capabilities with this challenge
+
+# How the challenge can be improved
+
+I think the event objects could have been more consistent and compatible with the task. It was a challenge to go from the object/json data to producing data for the specific cell blocks but that might have been done deliberately for the coding challenge. Otherwise, everything was very clear, well thought out and properly explained.
+
+## Setup and running
+
 # Node.js is needed to run the app
 
 # Type 'npm start' to run the app in development mode
